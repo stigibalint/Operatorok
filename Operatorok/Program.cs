@@ -48,8 +48,6 @@ namespace Operatorok
                 Console.WriteLine($"Hibás adat: {error.Message}");
             }
 
-            List<string> kesz = new List<string>();
-
             using (StreamWriter writer = new StreamWriter("eredmenyek.txt"))
             {
                 foreach (Operatorok op in operatorAdatok)

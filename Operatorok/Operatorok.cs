@@ -22,7 +22,7 @@ namespace Operatorok
         public int ElsoOperandus { get => elsoOperandus; set => elsoOperandus = value; }
         public string MuveletiJel { get => muveletiJel; set => muveletiJel = value; }
         public int MasodikOperandus { get => masodikOperandus; set => masodikOperandus = value; }
-        public Operatorok(int ElsoOperandus, string Muvelet, int MasodikOperandus)
+        public Operatorok(int ElsoOperandus, string MuveletiJel, int MasodikOperandus)
         {
             this.ElsoOperandus = ElsoOperandus;
             this.MuveletiJel = MuveletiJel;
